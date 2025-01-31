@@ -2,30 +2,10 @@ import * as MediaIcons from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { socialMediaLinks } from "@/data/social-media-links";
 
 export default function Footer() {
-	const [socialMediaIcons, setSocialMediaIcons] = useState(null);
-	useEffect(() => {
-		async function getSocialMediaIcons() {
-			try {
-				const response = await fetch(
-					`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/api/social-media-links`
-				);
-
-				if (!response.ok) {
-					throw new Error(`HTTP error! Status: ${response.status}`);
-				}
-
-				const data = await response.json();
-				setSocialMediaIcons(data.data);
-			} catch (error) {
-				console.error("Failed to fetch data from Strapi:", error);
-			}
-		}
-
-		getSocialMediaIcons();
-	}, []);
 	return (
 		<div className="footer">
 			<div className="left-column">
@@ -99,10 +79,10 @@ export default function Footer() {
 				</Link>
 
 				<div className="media-icons-wrapper">
-					{socialMediaIcons &&
-						socialMediaIcons.map((item) => (
+					{socialMediaLinks &&
+						socialMediaLinks.map((item, index) => (
 							<Link
-								key={item.id}
+								key={index}
 								className="media-icon"
 								href={item.URL}
 								aria-label={`link to ${item.URL}`}
