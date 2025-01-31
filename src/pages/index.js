@@ -1,29 +1,19 @@
 import LandingpageCard from "@/components/LandingpageCard";
-import { samplePOIs } from "@/utils/POIHelpers.js";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import LandingPageCardLink from "@/components/LandingPageLinks";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Head from "next/head";
+import { heroes } from "@/data/heroes";
 
 export async function getServerSideProps() {
 	try {
-		// fetching hero data from Strapi
-		const res = await fetch(
-			`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/api/heroes?populate=*`
-		);
-		const heroData = await res.json();
-
-		if (!res.ok) {
-			throw new Error(`Failed to fetch Hero data: ${res.statusText}`);
-		}
-		// featured items fetching from Strapi
+		// Fetch featured items from Strapi
 		const featuredRes = await fetch(
 			`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/api/featured?populate[point_of_interests][populate][0]=images&populate[point_of_interests][populate][1]=location`
 		);
 		const featuredData = await featuredRes.json();
-		console.log(featuredData);
 
 		if (!featuredRes.ok) {
 			throw new Error(
@@ -31,25 +21,24 @@ export async function getServerSideProps() {
 			);
 		}
 
-		// select a random hero on the server side
-		const heroes = heroData?.data || [];
+		// Select a random hero on the server side
 		const randomHero = heroes[Math.floor(Math.random() * heroes.length)];
 
-		// Eetract the featured items
+		// Extract the featured items
 		const featuredItems = featuredData?.data?.point_of_interests || [];
 
 		return {
 			props: {
-				hero: randomHero || null, // passing the selected hero as a prop
-				featuredItems: featuredItems || [], // passing the featured items as a prop
+				hero: randomHero || null, // Pass the selected hero as a prop
+				featuredItems: featuredItems || [], // Pass the featured items as a prop
 			},
 		};
 	} catch (error) {
 		console.error("Error fetching data:", error);
 		return {
 			props: {
-				hero: null, // returning null if there's an error
-				featuredItems: [], // returning an empty array if there's an error
+				hero: null, // Return null if there's an error
+				featuredItems: [], // Return an empty array if there's an error
 			},
 		};
 	}
@@ -58,7 +47,7 @@ export async function getServerSideProps() {
 export default function Home({ hero, featuredItems }) {
 	const [navIsTransparent, setNavIsTransparent] = useState(true);
 
-	const heroImage = hero?.image?.url;
+	const heroImage = hero?.image;
 	const heroFact = hero?.fact || "No fact available";
 
 	useEffect(() => {

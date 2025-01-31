@@ -1,0 +1,237 @@
+{
+    "data": [
+      {
+        "id": 2,
+        "documentId": "k7j4yc10m55lueqe3g54e50z",
+        "alias": "deivn",
+        "score": 22180,
+        "createdAt": "2025-01-23T16:38:28.855Z",
+        "updatedAt": "2025-01-23T16:38:28.855Z",
+        "publishedAt": "2025-01-23T16:38:28.872Z"
+      },
+      {
+        "id": 4,
+        "documentId": "hpq9lw4oh4usz8rh192rmbei",
+        "alias": "Jim",
+        "score": 21990,
+        "createdAt": "2025-01-23T16:40:06.956Z",
+        "updatedAt": "2025-01-23T16:40:06.956Z",
+        "publishedAt": "2025-01-23T16:40:06.962Z"
+      },
+      {
+        "id": 6,
+        "documentId": "zcq3hkowxa3bd30pbdib6bg2",
+        "alias": "Sarah",
+        "score": 20820,
+        "createdAt": "2025-01-23T16:41:00.411Z",
+        "updatedAt": "2025-01-23T16:41:00.411Z",
+        "publishedAt": "2025-01-23T16:41:00.418Z"
+      },
+      {
+        "id": 8,
+        "documentId": "adysepn0dc3tr0lbyy0vsbv7",
+        "alias": "Sarah",
+        "score": 13940,
+        "createdAt": "2025-01-23T16:41:13.402Z",
+        "updatedAt": "2025-01-23T16:41:13.402Z",
+        "publishedAt": "2025-01-23T16:41:13.418Z"
+      },
+      {
+        "id": 10,
+        "documentId": "b1mz16w8y5ctiw7lw9tzbvg5",
+        "alias": "george",
+        "score": 14840,
+        "createdAt": "2025-01-23T16:41:58.478Z",
+        "updatedAt": "2025-01-23T16:41:58.478Z",
+        "publishedAt": "2025-01-23T16:41:58.484Z"
+      },
+      {
+        "id": 12,
+        "documentId": "yrwv9oxcii1hq9e5igt5fvvz",
+        "alias": "george",
+        "score": 16540,
+        "createdAt": "2025-01-23T16:44:42.404Z",
+        "updatedAt": "2025-01-23T16:44:42.404Z",
+        "publishedAt": "2025-01-23T16:44:42.415Z"
+      },
+      {
+        "id": 14,
+        "documentId": "q9ardt5g94h7sflge38vpo4b",
+        "alias": "Jane",
+        "score": 9020,
+        "createdAt": "2025-01-23T16:45:17.380Z",
+        "updatedAt": "2025-01-23T16:45:17.380Z",
+        "publishedAt": "2025-01-23T16:45:17.385Z"
+      },
+      {
+        "id": 16,
+        "documentId": "h8hbgd4hxj7s09z4eu3kl1nu",
+        "alias": "fred",
+        "score": 14320,
+        "createdAt": "2025-01-23T16:47:03.655Z",
+        "updatedAt": "2025-01-23T16:47:03.655Z",
+        "publishedAt": "2025-01-23T16:47:03.663Z"
+      },
+      {
+        "id": 18,
+        "documentId": "zh93am7x0it51t2cvx61ewt1",
+        "alias": "laura",
+        "score": 16930,
+        "createdAt": "2025-01-23T16:47:30.206Z",
+        "updatedAt": "2025-01-23T16:47:30.206Z",
+        "publishedAt": "2025-01-23T16:47:30.211Z"
+      },
+      {
+        "id": 20,
+        "documentId": "ob1lnn7gs4lzl87jxtuiff52",
+        "alias": "devin",
+        "score": 8640,
+        "createdAt": "2025-01-23T16:58:36.952Z",
+        "updatedAt": "2025-01-23T16:58:36.952Z",
+        "publishedAt": "2025-01-23T16:58:36.958Z"
+      },
+      {
+        "id": 22,
+        "documentId": "bl8wv122yu1sgczexiqzjkt2",
+        "alias": "Sam",
+        "score": 21940,
+        "createdAt": "2025-01-23T17:00:01.766Z",
+        "updatedAt": "2025-01-23T17:00:01.766Z",
+        "publishedAt": "2025-01-23T17:00:01.772Z"
+      },
+      {
+        "id": 24,
+        "documentId": "pmvwgfw60vlojs73d0hbxasl",
+        "alias": "Sam",
+        "score": 17051,
+        "createdAt": "2025-01-23T17:00:16.151Z",
+        "updatedAt": "2025-01-23T17:00:16.151Z",
+        "publishedAt": "2025-01-23T17:00:16.156Z"
+      },
+      {
+        "id": 26,
+        "documentId": "iky8n0m0ul1mntfbzut6x3e6",
+        "alias": "devin",
+        "score": 12431,
+        "createdAt": "2025-01-27T19:01:29.497Z",
+        "updatedAt": "2025-01-27T19:01:29.497Z",
+        "publishedAt": "2025-01-27T19:01:29.506Z"
+      },
+      {
+        "id": 28,
+        "documentId": "xn1qwe3o2u2h6io6zyuk11nl",
+        "alias": "cool names Frank",
+        "score": 6881,
+        "createdAt": "2025-01-29T15:16:55.042Z",
+        "updatedAt": "2025-01-29T15:16:55.042Z",
+        "publishedAt": "2025-01-29T15:16:55.050Z"
+      },
+      {
+        "id": 30,
+        "documentId": "uvdwfcowkav9nvpwt07swhpt",
+        "alias": "cool names Frank",
+        "score": 12640,
+        "createdAt": "2025-01-29T15:17:31.603Z",
+        "updatedAt": "2025-01-29T15:17:31.603Z",
+        "publishedAt": "2025-01-29T15:17:31.609Z"
+      },
+      {
+        "id": 32,
+        "documentId": "p0j98d5hyuto88xx1v7g3icz",
+        "alias": "cool names Frank",
+        "score": 12621,
+        "createdAt": "2025-01-29T15:17:44.627Z",
+        "updatedAt": "2025-01-29T15:17:44.627Z",
+        "publishedAt": "2025-01-29T15:17:44.633Z"
+      },
+      {
+        "id": 34,
+        "documentId": "lr27rlyc8fae08eubl4yzb9n",
+        "alias": "cool names Frank",
+        "score": 17920,
+        "createdAt": "2025-01-29T15:17:55.039Z",
+        "updatedAt": "2025-01-29T15:17:55.039Z",
+        "publishedAt": "2025-01-29T15:17:55.051Z"
+      },
+      {
+        "id": 36,
+        "documentId": "rnksrgp5p8jumum82cazdrrs",
+        "alias": "cool names Frank",
+        "score": 8330,
+        "createdAt": "2025-01-29T15:18:18.411Z",
+        "updatedAt": "2025-01-29T15:18:18.411Z",
+        "publishedAt": "2025-01-29T15:18:18.417Z"
+      },
+      {
+        "id": 38,
+        "documentId": "sft4b4xle4vxtiw4n4arrlt7",
+        "alias": "cool names Frank",
+        "score": 20940,
+        "createdAt": "2025-01-29T15:18:32.509Z",
+        "updatedAt": "2025-01-29T15:18:32.509Z",
+        "publishedAt": "2025-01-29T15:18:32.519Z"
+      },
+      {
+        "id": 40,
+        "documentId": "y6atusoky32hchkgg9u55vjq",
+        "alias": "cool names Frank",
+        "score": 17500,
+        "createdAt": "2025-01-29T15:18:46.009Z",
+        "updatedAt": "2025-01-29T15:18:46.009Z",
+        "publishedAt": "2025-01-29T15:18:46.020Z"
+      },
+      {
+        "id": 42,
+        "documentId": "ukdi1bsjjzt1gieho0rbshu0",
+        "alias": "cool names Frank",
+        "score": 18080,
+        "createdAt": "2025-01-29T15:19:00.142Z",
+        "updatedAt": "2025-01-29T15:19:00.142Z",
+        "publishedAt": "2025-01-29T15:19:00.147Z"
+      },
+      {
+        "id": 44,
+        "documentId": "eon5nv2ssmpqmeeh8owoal4k",
+        "alias": "cool names Frank",
+        "score": 18280,
+        "createdAt": "2025-01-29T15:19:07.718Z",
+        "updatedAt": "2025-01-29T15:19:07.718Z",
+        "publishedAt": "2025-01-29T15:19:07.725Z"
+      },
+      {
+        "id": 46,
+        "documentId": "gujwevy761n5ocageqc7t8js",
+        "alias": "cool names Frank",
+        "score": 22660,
+        "createdAt": "2025-01-29T15:19:15.825Z",
+        "updatedAt": "2025-01-29T15:19:15.825Z",
+        "publishedAt": "2025-01-29T15:19:15.831Z"
+      },
+      {
+        "id": 48,
+        "documentId": "jgz3sa9as92tn4wsxwh2i3fr",
+        "alias": "Cooler Names Bill",
+        "score": 22490,
+        "createdAt": "2025-01-29T15:21:54.857Z",
+        "updatedAt": "2025-01-29T15:21:54.857Z",
+        "publishedAt": "2025-01-29T15:21:54.861Z"
+      },
+      {
+        "id": 50,
+        "documentId": "mobxtdv8845da1vkus531jpt",
+        "alias": "devin",
+        "score": 18521,
+        "createdAt": "2025-01-29T16:30:57.021Z",
+        "updatedAt": "2025-01-29T16:30:57.021Z",
+        "publishedAt": "2025-01-29T16:30:57.027Z"
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "page": 1,
+        "pageSize": 25,
+        "pageCount": 3,
+        "total": 66
+      }
+    }
+  }

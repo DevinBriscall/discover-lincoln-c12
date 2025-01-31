@@ -1,0 +1,62 @@
+{
+    "data": [
+      {
+        "id": 12,
+        "documentId": "ttej4rfcww1268g2clj8xura",
+        "Platform": "Instagram",
+        "URL": "https://www.instagram.com/",
+        "createdAt": "2025-01-23T21:48:04.320Z",
+        "updatedAt": "2025-01-27T20:17:52.239Z",
+        "publishedAt": "2025-01-27T20:17:52.251Z",
+        "Icon": "faInstagram"
+      },
+      {
+        "id": 13,
+        "documentId": "v5i0iv8j383peamgkszmi30d",
+        "Platform": "Tiktok",
+        "URL": "https://www.tiktok.com/",
+        "createdAt": "2025-01-23T21:47:41.371Z",
+        "updatedAt": "2025-01-27T20:18:03.623Z",
+        "publishedAt": "2025-01-27T20:18:03.635Z",
+        "Icon": "faTiktok"
+      },
+      {
+        "id": 14,
+        "documentId": "jn8upqxxgbe1gmx14csw54zf",
+        "Platform": "X",
+        "URL": "https://x.com/",
+        "createdAt": "2025-01-23T21:35:32.141Z",
+        "updatedAt": "2025-01-27T20:22:48.568Z",
+        "publishedAt": "2025-01-27T20:22:48.581Z",
+        "Icon": "faSquareXTwitter"
+      },
+      {
+        "id": 15,
+        "documentId": "ukj93o7wztb82sbpwahqhk5t",
+        "Platform": "Youtube",
+        "URL": "https://www.youtube.com/",
+        "createdAt": "2025-01-23T21:48:27.249Z",
+        "updatedAt": "2025-01-27T20:22:56.725Z",
+        "publishedAt": "2025-01-27T20:22:56.742Z",
+        "Icon": "faYoutubeSquare"
+      },
+      {
+        "id": 16,
+        "documentId": "jp25ltemzl4zz3ueki7r60kr",
+        "Platform": "Facebook",
+        "URL": "https://www.facebook.com/",
+        "createdAt": "2025-01-23T21:47:14.799Z",
+        "updatedAt": "2025-01-27T20:36:18.269Z",
+        "publishedAt": "2025-01-27T20:36:18.280Z",
+        "Icon": "faFacebookSquare"
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "page": 1,
+        "pageSize": 25,
+        "pageCount": 1,
+        "total": 5
+      }
+    }
+  }
